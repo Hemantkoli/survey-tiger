@@ -77,6 +77,9 @@ import FormLabel from '@material-ui/core/FormLabel';
                 }    
 
             </Grid>
+            <Button className="bcolor" fullWidth style={{ textTransform:"none", marginTop:"25px",backgroundColor: "#eda180"}}>
+                Confirm
+            </Button>
     </>
  }
  export default Publish;
