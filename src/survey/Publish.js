@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from '@material-ui/core'
 import {useSelector, useDispatch} from 'react-redux'
 import {Grid,Paper} from '@material-ui/core'
 import Checkbox from '@material-ui/core/Checkbox';
@@ -77,7 +78,7 @@ import FormLabel from '@material-ui/core/FormLabel';
                 }    
 
             </Grid>
-            <Button className="bcolor" fullWidth style={{ textTransform:"none", marginTop:"25px",backgroundColor: "#eda180"}}>
+            <Button className="bcolor" style={{ textTransform:"none", marginTop:"25px", marginLeft:"650px", backgroundColor: "#eda180"}}>
                 Confirm
             </Button>
     </>
