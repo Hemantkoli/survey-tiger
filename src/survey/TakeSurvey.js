@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const TakeSurvey = props => {
     return (
         <div>
-            <p>Take Survey</p>            
+            <h1>Take Survey</h1>            
         </div>
     );
 };
